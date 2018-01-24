@@ -124,7 +124,7 @@ print("\nADOL-C annealing completed in %f s."%(time.time() - tstart))
 # Save the results of annealing
 #anneal1.save_states("L%d_%s_%dex/states_%d.npy"%(L, suffix, M, ninit))
 #anneal1.save_params("params.npy")
-anneal1.save_io("DH%d_%dex/io_%d.npy"%(D_hidden, M, ninit), dtype=np.float16)
+#anneal1.save_io("DH%d_%dex/io_%d.npy"%(D_hidden, M, ninit), dtype=np.float16)
 anneal1.save_Wb("DH%d_%dex/W_%d.npy"%(D_hidden, M, ninit),
                 "DH%d_%dex/b_%d.npy"%(D_hidden, M, ninit), dtype=np.float16)
 anneal1.save_action_errors("DH%d_%dex/action_errors_%d.npy"%(D_hidden, M, ninit))
