@@ -10,8 +10,8 @@
 
 import os
 
-M = [500]
-D_hidden = [20]
+M = [100]
+D_hidden = [5, 10, 15]
 #D_hidden = [1, 2, 4, 6, 8, 10, 20, 25, 30]
 Ninit = 50
 
