@@ -1,0 +1,56 @@
+compute-0-54.local
+Traceback (most recent call last):
+  File "adapt_l96_N3_anneal.py", line 54, in <module>
+    data = np.loadtxt("Lorenz96_TS/gen_l96_noisy_0_01.npy") # has 5 l96 variables
+  File "/home/rag032/.local/lib/python2.7/site-packages/numpy/lib/npyio.py", line 1024, in loadtxt
+    items = [conv(val) for (conv, val) in zip(converters, vals)]
+  File "/home/rag032/.local/lib/python2.7/site-packages/numpy/lib/npyio.py", line 725, in floatconv
+    return float(x)
+ValueError: could not convert string to float: “NUMPY
+M = 100
+D_hidden = 250
+initID = 7
+SGE_TASK_ID = 7
+0
+M = 100
+D_hidden = 250
+initID = 4
+SGE_TASK_ID = 4
+0
+0
+M = 100
+D_hidden = 250
+initID = 6
+SGE_TASK_ID = 6
+0
+0
+M = 100
+D_hidden = 250
+initID = 5
+SGE_TASK_ID = 5
+0
+M = 100
+D_hidden = 250
+initID = 13
+SGE_TASK_ID = 13
+0
+M = 100
+D_hidden = 250
+initID = 2
+SGE_TASK_ID = 2
+0
+M = 100
+D_hidden = 250
+initID = 11
+SGE_TASK_ID = 11
+0
+M = 100
+D_hidden = 250
+initID = 14
+SGE_TASK_ID = 14
+0
+M = 100
+D_hidden = 250
+initID = 9
+SGE_TASK_ID = 9
+0
